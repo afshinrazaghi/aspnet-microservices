@@ -33,7 +33,7 @@ namespace Catalog.Api.Data
                 new Product
                 {
                     Id = "602d21249e773f2a399b4f6",
-                    Name = "Samsung 10,
+                    Name = "Samsung 10",
                     Summary="This phone is the company's biggest change",
                     Description= "Lore ipsum dolor sit amet",
                     ImageFIle="product-2.png",
