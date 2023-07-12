@@ -82,7 +82,7 @@ namespace Catalog.Api.Controllers
         #endregion
 
         #region delete product
-        [HttpDelete("{id:length(24)", Name = "DeleteProduct")]
+        [HttpDelete("{id:length(24)}", Name = "DeleteProduct")]
         [ProducesResponseType(typeof(bool), (int)HttpStatusCode.OK)]
         public async Task<IActionResult> DeleteProduct(string id)
         {

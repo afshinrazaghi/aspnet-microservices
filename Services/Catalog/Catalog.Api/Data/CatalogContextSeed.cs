@@ -26,7 +26,7 @@ namespace Catalog.Api.Data
                     Name = "IPhone X",
                     Summary="This phone is the company's biggest change",
                     Description= "Lore ipsum dolor sit amet",
-                    ImageFIle="product-1.png",
+                    ImageFile="product-1.png",
                     Price = 950.00M,
                     Category  = "Smart Phone"
                 },
@@ -36,7 +36,7 @@ namespace Catalog.Api.Data
                     Name = "Samsung 10",
                     Summary="This phone is the company's biggest change",
                     Description= "Lore ipsum dolor sit amet",
-                    ImageFIle="product-2.png",
+                    ImageFile="product-2.png",
                     Price = 840.00M,
                     Category  = "Smart Phone"
                 },
