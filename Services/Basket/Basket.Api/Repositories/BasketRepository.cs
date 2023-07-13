@@ -15,7 +15,7 @@ namespace Basket.Api.Repositories
             _redisCache = cache ?? throw new ArgumentNullException(nameof(cache));
         }
 
-        public async Task DeleteShoppingCart(string userName)
+        public async Task DeleteBasket(string userName)
         {
             await _redisCache.RemoveAsync(userName);
         }
